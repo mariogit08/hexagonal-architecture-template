@@ -1,5 +1,4 @@
-# Onion Architecture .NET Template
-This template help to create the main layers suggested by onion(hexagonal, clean) architecture with DDD mindset.
+# Hexagonal Architecture .NET Template
 
 English
 
