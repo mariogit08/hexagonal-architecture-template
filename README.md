@@ -9,7 +9,7 @@ The template was created using Visual Studio SDK.
 You need download the project and put the zip file in C:\Users\<YourUser>\Documents\Visual Studio <yourVersion>\Templates\ProjectTemplates in your computer.
 
 ## Using the template
-Once you put the project zip in the folder, start the visual studio and go to New Project, after this, you can see the option to select the template already enabled. See this [image](../master/UsingProjectImage.JPG).
+Once you put the project zip in the folder, start the visual studio and go to New Project, so you can see the option to select the template already enabled. See this [image](../master/UsingProjectImage.JPG).
   
 ### HACK
 
