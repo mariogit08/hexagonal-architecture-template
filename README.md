@@ -1,6 +1,6 @@
 # Hexagonal Architecture .NET Template
 
-*English*
+**English**
 
 This template help to create the main layers suggested by onion(hexagonal, clean) architecture.
 The template was created using Visual Studio SDK.
@@ -24,7 +24,7 @@ You have to perform the following extra steps in order to get the project to bui
 		5. Move all files in the extra folder into the parent folder.
 		6. Delete the extra folder.
 
-*Português*
+**Português**
 
 Template que ajuda a criar as principais camadas(projetos) dentro de uma solução seguindo as camadas sugeridas pela arquitetura onion (hexagonal, clean) baseado-se nos princípios do DDD.
 O template foi criado utilizando o Visual Studio SDK.
