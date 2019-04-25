@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VSTemplate xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Version="3.0.0" Type="ProjectGroup">
+   <TemplateData>
+      <Name>Template Hexagonal Architecture</Name>
+      <Description>Create an Hexagonal Architecture Solution</Description>
+      <ProjectType>CSharp</ProjectType>
+      <ProjectSubType />
+      <SortOrder>1000</SortOrder>
+      <CreateNewFolder>false</CreateNewFolder>
+      <DefaultName />
+      <ProvideDefaultName>false</ProvideDefaultName>
+      <LocationField>Enabled</LocationField>
+      <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+      <Icon>DDD_Solution_icon.png</Icon>
+   </TemplateData>
+   <TemplateContent>
+      <ProjectCollection>
+         <SolutionFolder Name="Application">
+            <ProjectTemplateLink ProjectName="$projectname$.Application" CopyParameters="true">TemplateProjects.Application\MyTemplate.vstemplate</ProjectTemplateLink>
+         </SolutionFolder>
+         <SolutionFolder Name="Domain">
+            <ProjectTemplateLink ProjectName="$projectname$.Domain" CopyParameters="true">TemplateProjects.Domain\MyTemplate.vstemplate</ProjectTemplateLink>
+         </SolutionFolder>
+         <SolutionFolder Name="Infra">
+            <ProjectTemplateLink ProjectName="$projectname$.Infra.Crosscutting" CopyParameters="true">TemplateProjects.Infra.Crosscutting\MyTemplate.vstemplate</ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Infra.Data" CopyParameters="true">TemplateProjects.Infra.Data\MyTemplate.vstemplate</ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Infra.Ioc" CopyParameters="true">TemplateProjects.Infra.Ioc\MyTemplate.vstemplate</ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Infra.Repository" CopyParameters="true">TemplateProjects.Infra.Repository\MyTemplate.vstemplate</ProjectTemplateLink>
+            <ProjectTemplateLink ProjectName="$projectname$.Infra.Service" CopyParameters="true">TemplateProjects.Infra.Service\MyTemplate.vstemplate</ProjectTemplateLink>
+         </SolutionFolder>
+         <SolutionFolder Name="UI">
+            <ProjectTemplateLink ProjectName="$projectname$.WebApi" CopyParameters="true">TemplateProjects.WebApi\MyTemplate.vstemplate</ProjectTemplateLink>
+         </SolutionFolder>
+         <SolutionFolder Name="Test" />
+      </ProjectCollection>
+   </TemplateContent>
+</VSTemplate>
