@@ -14,8 +14,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <Project TargetFileName="TemplateProjects.Domain.csproj" File="TemplateProjects.Domain.csproj" ReplaceParameters="true">
-      <ProjectItem ReplaceParameters="true" TargetFileName="Class1.cs">Class1.cs</ProjectItem>
+    <Project TargetFileName="TemplateProjects.Domain.csproj" File="TemplateProjects.Domain.csproj" ReplaceParameters="true">      
       <Folder Name="Entities" TargetFolderName="Entities" />
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
