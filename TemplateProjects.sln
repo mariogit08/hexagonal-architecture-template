@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateProjects.Domain", "TemplateProjects.Domain\TemplateProjects.Domain.csproj", "{167ED1FE-5467-43D4-BDA7-5DD7520D8C93}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateProjects.Infra.Repository", "TemplateProjects.Infra.Repository\TemplateProjects.Infra.Repository.csproj", "{36660F7E-F483-4136-BCE6-E92A2E190A9F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateProjects.Infra.Crosscutting", "TemplateProjects.Infra.Crosscutting\TemplateProjects.Infra.Crosscutting.csproj", "{FF7CE6D3-7ED1-4258-84B3-5D0EDCC3F8BE}"
 EndProject
@@ -29,10 +27,6 @@ Global
 		{167ED1FE-5467-43D4-BDA7-5DD7520D8C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{167ED1FE-5467-43D4-BDA7-5DD7520D8C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{167ED1FE-5467-43D4-BDA7-5DD7520D8C93}.Release|Any CPU.Build.0 = Release|Any CPU
-		{36660F7E-F483-4136-BCE6-E92A2E190A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36660F7E-F483-4136-BCE6-E92A2E190A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36660F7E-F483-4136-BCE6-E92A2E190A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36660F7E-F483-4136-BCE6-E92A2E190A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF7CE6D3-7ED1-4258-84B3-5D0EDCC3F8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF7CE6D3-7ED1-4258-84B3-5D0EDCC3F8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7CE6D3-7ED1-4258-84B3-5D0EDCC3F8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -60,5 +54,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F83E19B-0D32-4391-9EE8-DAE08C05E6C2}
 	EndGlobalSection
 EndGlobal

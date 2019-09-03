@@ -29,7 +29,7 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="Response.cs">Response.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ValidationMessage.cs">ValidationMessage.cs</ProjectItem>
         <ProjectItem ReplaceParameters="true" TargetFileName="ValidationMessages.resx">ValidationMessages.resx</ProjectItem>
-		<ProjectItem ReplaceParameters="true" TargetFileName="ValidationMessages.Designer.cs">ValidationMessages.Designer.cs</ProjectItem>
+		<ProjectItem ReplaceParameters="true" TargetFileName="ValidationMessages.resx">ValidationMessages.Designer.cs</ProjectItem>
       </Folder>
       <Folder Name="Properties" TargetFolderName="Properties">
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
